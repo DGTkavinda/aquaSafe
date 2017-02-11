@@ -19,7 +19,8 @@ import jssc.SerialPortList;
  */
 
 
-
+//change tt
+//change 09
 public class ArduinoData {
     
      final static String start_char = "@";//charactors to clear the arduino reading
