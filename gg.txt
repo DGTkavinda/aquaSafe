@@ -1,0 +1,18 @@
+SqlCommand cmd;
+            SqlConnection conect;
+            SqlDataAdapter da;
+            
+            conect = new SqlConnection(@"Data Source=aquasafeserver1.database.windows.net;Initial Catalog=aquaSafeDB;Integrated Security=False;User ID=aquaadmin1;Password=aquaSafe1;Connect Timeout=15;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            conect.Open();
+            cmd = new SqlCommand("INSERT INTO Employee (Date,Time,Conductivity,Temperature) VALUES (@Date,@Time,@Conductivity,@Temperature)", conect);
+            cmd.Parameters.AddWithValue("@Date", date);
+            cmd.Parameters.AddWithValue("@Time", time);
+            cmd.Parameters.AddWithValue("@Conductivity", conductivity);
+            cmd.Parameters.AddWithValue("@Temperature", temperature);
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex) {
+                MessageBox.Show(ex.Message, "Error");
+            }
