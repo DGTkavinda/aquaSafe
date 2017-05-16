@@ -11,7 +11,7 @@ using System.IO.Ports;
 using System.Data.Sql;
 using System.Data.SqlClient;
 
-namespace $safeprojectname$
+namespace aquaSafeDemo
 {
     public partial class Form1 : Form
     {

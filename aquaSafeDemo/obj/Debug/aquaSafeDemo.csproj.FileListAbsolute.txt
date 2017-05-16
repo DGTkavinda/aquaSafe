@@ -1,0 +1,4 @@
+E:\IIT\Gugsi\Group Project\GIT\aquaSafe\aquaSafeDemo\obj\Debug\aquaSafeDemo.csprojResolveAssemblyReference.cache
+E:\IIT\Gugsi\Group Project\GIT\aquaSafe\aquaSafeDemo\obj\Debug\safeprojectname.Form1.resources
+E:\IIT\Gugsi\Group Project\GIT\aquaSafe\aquaSafeDemo\obj\Debug\$safeprojectname$.Properties.Resources.resources
+E:\IIT\Gugsi\Group Project\GIT\aquaSafe\aquaSafeDemo\obj\Debug\aquaSafeDemo.csproj.GenerateResource.Cache

@@ -46,6 +46,9 @@ void loop()
     case 'i':
       ReceiveCall();
       break;
+    case 'r':
+      ReceiveMessage();
+      break;
   }
  if (mySerial.available()>0)
  Serial.write(mySerial.read());
@@ -71,6 +74,7 @@ void ReceiveMessage()
   {
     msg=mySerial.read();
     Serial.print(msg);
+    
   }
 }
 
